@@ -34,11 +34,11 @@
     	requestAnimationFrame(Loop);
     	
   	};
-	(function init()
+	function init()
   	{	
-  		var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+  		(var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
                       window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
- 					  window.requestAnimationFrame = requestAnimationFrame;
+ 					  window.requestAnimationFrame = requestAnimationFrame;)();
  					  
  					  
   	    physics = new Physics(); 	    
@@ -48,6 +48,6 @@
   	    physics.drag();
   	    startTime=new Date().getTime();
   	    requestAnimationFrame(Loop);
- 	})();
+ 	}
 
 
