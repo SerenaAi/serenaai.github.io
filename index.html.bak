@@ -34,7 +34,7 @@
         <div class="header">
             <div class="text-center">
                 <img class="img-circle" src="Content/image/me.JPG" alt="Generic placeholder image" width="140" height="140">
-                <h1>Serena Ai</h1>
+                <h1>Sijia Ai</h1>
             </div>
         </div>
 
@@ -177,7 +177,7 @@
                                 <div class="row">
                                     <div class="col-lg-4">
                                         <div class="caption">
-                                            <p><a class="bold">This</a> application allows users to sell used products.</p>
+                                            <p><a>This</a> application allows users to sell used products.</p>
                                             <p></p>
                                             <p><a href="#" class="btn btn-my btn-lg" role="button" data-toggle="modal" data-target="#dag-infosys" style="width:180px">More</a></p>
                                         </div>
@@ -202,7 +202,7 @@
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="caption">
-                                            <p><a class="bold">This</a> is a small gadget implemented using JavaScript.</p>
+                                            <p><a>This</a> is a small gadget implemented using JavaScript.</p>
                                             <p></p>
                                             <p><a href="#" class="btn btn-my btn-lg" role="button" data-toggle="modal" data-target="#dag-boat" style="width:180px" onclick="init();">Play</a></p>
                                         </div>
