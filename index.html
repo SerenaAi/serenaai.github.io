@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/jumbotron-narrow.css" rel="stylesheet" />
+    <title>Profile</title>
+</head>
+<body ng-app="mainApp">
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container content">
+        <div class="header">
+            <div class="text-center">
+                <img class="img-circle" src="Content/image/me2.JPG" alt="Generic placeholder image" width="140" height="140">
+                <h1>Serena Ai</h1>
+            </div>
+        </div>
+
+        <!--about-->
+        <a class="anchor" id="about"></a>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">                   
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse-c-about" aria-expanded="true">
+                            About Me
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-c-about" class="panel-collapse collapse in" role="tabpanel">
+                    <div class="panel-body">
+                        <div class="entry">
+                            <p>I am passionate about web/mobile design and development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--skill-->
+            <a class="anchor" id="skill"></a>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse-c-skill" aria-expanded="true">
+                            Skill
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-c-skill" class="panel-collapse collapse in" role="tabpanel">
+                    <div class="panel-body">
+                        <div class="entry">
+                            <p><a>Programming Languages: </a>Java, C, C#, PHP, JavaScript, HTML5, CSS3, SQL</p>
+                            <p><a>Databases: </a>Oracle, PostgreSQL, Microsoft SQL Server, SQLite</p>
+                            <p><a>Platform and Frameworks: </a>Ionic, Cordova, Angular JS, J2EE, ASP.NET, Groovy and Grails</p>
+                            <p><a>Others: </a>Agile(Scrum), REST, JSON, AJAX, Git, Entity Framework, UML, Bootstrap, Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--experience-->
+            <a class="anchor" id="experience"></a>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse-c-experience" aria-expanded="true">
+                            Professional Experience
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-c-experience" class="panel-collapse collapse in" role="tabpanel">
+                    <div class="panel-body">
+                        <div class="entry">
+                            <div>
+                                <h4>Flyover Country Mobile Application <small>(Cordova)</small></h4>
+                                <h5><a>University of Minnesota</a></h5>
+                                <ul>
+                                    <li>Participated in gathering requirements and determining project scope.</li>
+                                    <li>Designed the UI of the app and closely worked with users to improve user experience.</li>
+                                    <li>Implemented the application using HTML5, JAVASCRIPT, CSS and SQL based on Ionic framework and
+Openlayer3 map engine. Utilized HTML5 Geolocation to provide GPS services.</li>
+                                    <li>Utilized SQLite database for the offline storage.</li>
+                                    <li>Tested and maintained the application. Created packages for deployment.</li>
+                                </ul>
+                            </div>
+                            <br>                   
+                            <div>
+                                <h4>API Reference Application <small>(ASP.NET Web API)</small></h4>
+                                <h5><a>Frontier Communications</a></h5>
+                                <ul>
+                                    <li>Developed a RESTful web service based on ASP.NET Web API framework using C# and outputting JSON.</li>
+                                    <li>Implemented the client side of the application using Angular JS, CSS and Bootstrap.</li>
+                                    <li>Designed the database using data modeling techniques and wrote stored procedures in PL/SQL.</li>
+                                    <li>Created and maintained the software design documentation.</li>
+                                    <li>Utilized Team Foundation Server for version control.</li>
+                                </ul>
+                            </div>
+                            <br>   
+                           <!--  <div>
+                                <h4>Content Management System <small>(J2EE)</small></h4>
+                                <h5><a>Ding Network Technology</a></h5>
+                                <ul>
+                                    <li>Understood the business logic of large content management systems.</li>
+                                    <li>Collaboratively developed and supported the system using Java Servlets/JSP based on J2EE framework.</li>
+                                    <li>Utilized JavaScript and AJAX to improve the usability of the system.</li>
+                                    <li>Designed front-end in Photoshop.</li>
+                                </ul>
+                            </div>
+                            <br>    -->
+                            <div>
+                                <h4>B2B Archive Management System <small>(ASP.NET Web Forms)</small></h4>
+                                <h5><a>Hewlett-Packard</a></h5>
+                                <ul>
+                                    <li>Followed software development lifecycle, coding conventions and project standards.</li>
+                                    <li>
+                                        Participated in creating and updating technical documentation such as software requirement specification and
+                                        design documentation.
+                                    </li>
+                                    <li>
+                                        Worked in a team environment to implement the server side of a large Business to Business web application based
+                                        on ASP.NET Web Forms framework.
+                                    </li>
+                                    <li>Designed and developed the GUI using AJAX, JavaScript and CSS.</li>
+                                    <li>Created database using MS SQL Server.</li>
+                                    <li>Utilized SVN to control the source code.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--project-->
+            <a class="anchor" id="project"></a>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse-c-work" aria-expanded="true">
+                            Project
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapse-c-work" class="panel-collapse collapse in" role="tabpanel">
+                    <div class="panel-body">
+                        <div class="entry">
+                            <div>
+                                <h4>Flyover Country <small>(Cordova)</small></h4>
+                                <hr />                      
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="caption">
+                                            <p>This application is a National Science Foundation funded offline mobile app for geoscience outreach and data discovery. The app exposes interactive geologic maps from Macrostrat.org, fossil localities from Neotomadb.org and Paleobiodb.org, core sample localities from LacCore.org, Wikipedia articles, offline base maps, and the user’s current GPS determined location, altitude, speed, and heading. The app analyzes a given flight path and caches relevant map data and points of interest (POI), and displays these data during the flight, without in flight wifi. By downloading only the data relevant to a particular flightpath, cache sizes remain reasonable, allowing for a robust experience without an internet connection.</p>
+                                            <p>Website: <a href="http://fc.umn.edu">http://fc.umn.edu/</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="thumbnail">
+                                            <div class="row">
+                                                <div class="col-lg-12 text-center">
+                                                    <img src="Content/image/flyovercountry/screen.png" style="width:32%; height: auto;"/>
+                                                    <img src="Content/image/flyovercountry/screen2.png" style="width:32%; height: auto;"/>
+                                                    <img src="Content/image/flyovercountry/screen3.png" style="width:32%; height: auto;"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div align="center" width="100%">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.ionicframework.app303739&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img style="width:135px;height:auto;" alt="Get it on Google Play" src="./Content/image/google-store.png"></a> 
+
+                                                        <a href="https://itunes.apple.com/us/app/flyover-country/id1059886913?mt=8"> <img src="./Content/image/apple-store.png" style="width:135px;height:auto;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <h4>Auction Website <small>(Groovy and Grails)</small></h4>
+                                <hr />                      
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="caption">
+                                            <p>This application allows users to create their account and publish listing information as a seller or create bidding information as a bidder.</p>
+                                            <p>Git: <a href="https://github.com/aishikoyo/Grails">https://github.com/aishikoyo/Grails</a></p>
+                                            <p><a href="#" class="btn btn-my btn-lg" role="button" data-toggle="modal" data-target="#dag-auction" style="width:180px">More</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="thumbnail">
+                                            <img src="Content/image/auction/create.png" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <h4>Gadget <small>(JavaScript+Box2D)</small></h4>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <div class="thumbnail">
+                                            <img src="Content/image/boat/boat.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="caption">
+                                            <p>This is a small gadget implemented using JavaScript.</p>
+                                            <p></p>
+                                            <p><a href="#" class="btn btn-my btn-lg" role="button" data-toggle="modal" data-target="#dag-boat" style="width:180px" onclick="init();">Play</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--contact-->
+            <a class="anchor" id="contact"></a>
+            <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse-c-contact" aria-expanded="true">
+                                Contact
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse-c-contact" class="panel-collapse collapse in" role="tabpanel">
+                        <div class="panel-body">
+                            <div class="entry">
+                                <p><a class="glyphicon glyphicon-envelope">&nbsp;</a>Email: serenaai89@gmail.com</p>
+                                <p><a class="glyphicon glyphicon-phone">&nbsp;</a>Phone: (651)353-2749</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--footer-->
+        <footer class="footer">
+            <p class="text-center">&copy; Portfolio of Serena Ai 2015</p>
+        </footer>
+
+        <!--dialogs-->
+        <div class="modal fade" id="dag-boat" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <a>Drag the border of the square:</a>
+                        <div style="position: relative; width: 500px; height: 400px">
+                            <canvas id="bg" style="z-index: 0; position: absolute; left: 0px; top: 0px; background-image: url('Scripts/boat/image/bg3.png'); background-repeat: repeat-x;" height="400px" width="500px"></canvas>
+                            <canvas id="boat" style="z-index: 1; position:absolute; left:0px; top:0px;" height="400px" width="500px"></canvas>
+                            <canvas id="water" style="z-index: 2; position:absolute; left:0px; top:0px;" height="400px" width="500px"></canvas>
+                            <canvas id="content" style="z-index: 3; position:absolute; left:0px; top:0px; " height="400px" width="500px"></canvas>
+                            <canvas id="box" style="z-index: 4; position:absolute; left:0px; top:0px;" height="400px" width="500px"></canvas>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-my btn-circle" data-dismiss="modal"><span class="glyphicon glyphicon-off"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="dag-auction" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <div id="carousel-auction" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                           
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner text-center" role="listbox">
+                                    <div class="item active">
+                                        <img src="Content/image/auction/login.png" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="Content/image/auction/create.png" />
+                                    </div>
+                                </div>
+
+                                <a class="left carousel-control" href="#carousel-auction" role="button" data-slide="prev">
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-auction" role="button" data-slide="next">
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-my btn-circle" data-dismiss="modal"><span class="glyphicon glyphicon-off"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="dag-infosys" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <div id="carousel-infosys" class="carousel slide" data-ride="carousel">
+
+                                <div class="carousel-inner text-center" role="listbox">
+                                    <div class="item active">
+                                        <img src="Content/image/infosys/index.png" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="Content/image/infosys/account.png" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="Content/image/infosys/new.png" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="Content/image/infosys/published.png" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="Content/image/infosys/search.png" />
+                                    </div>
+                                </div>
+
+                                <a class="left carousel-control" href="#carousel-infosys" role="button" data-slide="prev">
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-infosys" role="button" data-slide="next">
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-my btn-circle" data-dismiss="modal"><span class="glyphicon glyphicon-off"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/app.js"></script>
+
+
+    <script src="Scripts/boat/Box2dWeb-2.1.a.3.min.js"></script>
+    <script src="Scripts/boat/a.js"></script>
+    <script src="Scripts/boat/physics.js"></script>
+    <script src="Scripts/boat/body.js"></script>
+    <script src="Scripts/boat/content.js"></script>
+    <script src="Scripts/boat/init.js"></script>
+    <script>
+
+      
+    </script>
+</body>
+</html>
+
+
